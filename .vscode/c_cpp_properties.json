@@ -1,0 +1,28 @@
+{
+	"configurations": [
+		{
+			"name": "obstacleAssaultEditor Editor Linux Development (obstacleAssault)",
+			"compilerPath": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"compilerArgs": [
+				"-isysroot",
+				"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu"
+			],
+			"cStandard": "c17",
+			"cppStandard": "c++20",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_obstacleAssault.json"
+		},
+		{
+			"name": "Linux",
+			"compilerPath": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"compilerArgs": [
+				"-isysroot",
+				"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu"
+			],
+			"cStandard": "c17",
+			"cppStandard": "c++20",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default.json"
+		}
+	]
+}

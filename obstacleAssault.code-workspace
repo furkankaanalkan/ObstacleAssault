@@ -1,0 +1,879 @@
+{
+	"folders": [
+		{
+			"name": "obstacleAssault",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+		}
+	],
+	"settings": {
+		"js/ts.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"terminal.integrated.env.linux": {
+			"PATH": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64:${env:PATH}",
+			"DOTNET_ROOT": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64",
+			"DOTNET_HOST_PATH": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64/dotnet",
+			"DOTNET_MULTILEVEL_LOOKUP": "0",
+			"DOTNET_ROLL_FORWARD": "LatestMajor"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "obstacleAssault Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Test",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Test",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Test",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Shipping",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Shipping",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"Linux",
+					"Shipping",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Test",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Test",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Test",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Shipping",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Shipping",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssault LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssault LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssault",
+					"LinuxArm64",
+					"Shipping",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssaultEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"Debug",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssaultEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"DebugGame",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"obstacleAssaultEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			},
+			{
+				"label": "obstacleAssaultEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"obstacleAssaultEditor",
+					"Linux",
+					"Development",
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch obstacleAssault (Debug)",
+				"request": "launch",
+				"program": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Binaries/Linux/UnrealGame-Linux-Debug",
+				"preLaunchTask": "obstacleAssault Linux Debug Build",
+				"args": [
+				],
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2",
+				"type": "cppdbg",
+				"visualizerFile": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch obstacleAssault (DebugGame)",
+				"request": "launch",
+				"program": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Binaries/Linux/UnrealGame-Linux-DebugGame",
+				"preLaunchTask": "obstacleAssault Linux DebugGame Build",
+				"args": [
+				],
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2",
+				"type": "cppdbg",
+				"visualizerFile": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch obstacleAssault (Development)",
+				"request": "launch",
+				"program": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Binaries/Linux/UnrealGame",
+				"preLaunchTask": "obstacleAssault Linux Development Build",
+				"args": [
+				],
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2",
+				"type": "cppdbg",
+				"visualizerFile": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch obstacleAssault (Test)",
+				"request": "launch",
+				"program": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Binaries/Linux/UnrealGame-Linux-Test",
+				"preLaunchTask": "obstacleAssault Linux Test Build",
+				"args": [
+				],
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2",
+				"type": "cppdbg",
+				"visualizerFile": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch obstacleAssault (Shipping)",
+				"request": "launch",
+				"program": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Binaries/Linux/UnrealGame-Linux-Shipping",
+				"preLaunchTask": "obstacleAssault Linux Shipping Build",
+				"args": [
+				],
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2",
+				"type": "cppdbg",
+				"visualizerFile": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch obstacleAssaultEditor (Debug)",
+				"request": "launch",
+				"program": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"preLaunchTask": "obstacleAssaultEditor Linux Debug Build",
+				"args": [
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject"
+				],
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2",
+				"type": "cppdbg",
+				"visualizerFile": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch obstacleAssaultEditor (DebugGame)",
+				"request": "launch",
+				"program": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"preLaunchTask": "obstacleAssaultEditor Linux DebugGame Build",
+				"args": [
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject"
+				],
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2",
+				"type": "cppdbg",
+				"visualizerFile": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch obstacleAssaultEditor (Development)",
+				"request": "launch",
+				"program": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/Linux/UnrealEditor",
+				"preLaunchTask": "obstacleAssaultEditor Linux Development Build",
+				"args": [
+					"/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject"
+				],
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2",
+				"type": "cppdbg",
+				"visualizerFile": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Linux Development Build",
+				"program": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Build/BatchFiles/RunUBT.sh",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/obstacleAssault.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"env": {
+					"PATH": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64:${env:PATH}",
+					"DOTNET_ROOT": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64",
+					"DOTNET_HOST_PATH": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64/dotnet",
+					"DOTNET_MULTILEVEL_LOOKUP": "0",
+					"DOTNET_ROLL_FORWARD": "LatestMajor"
+				},
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/home/furkan/Linux_Unreal_Engine_5.8.2"
+			}
+		]
+	}
+}

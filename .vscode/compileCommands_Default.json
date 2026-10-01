@@ -1,0 +1,346 @@
+[
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/MovingPlatform.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/AI/CombatAIController.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/AI/CombatEnemy.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/AI/CombatEnemySpawner.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/AI/CombatStateTreeUtility.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/AI/EnvQueryContext_Danger.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/AI/EnvQueryContext_Player.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Animation/AnimNotify_CheckChargedAttack.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Animation/AnimNotify_CheckCombo.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Animation/AnimNotify_DoAttackTrace.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/CombatCharacter.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/CombatGameMode.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/CombatPlayerController.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Gameplay/CombatActivationVolume.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Gameplay/CombatCheckpointVolume.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Gameplay/CombatDamageableBox.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Gameplay/CombatDummy.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Gameplay/CombatLavaFloor.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Interfaces/CombatActivatable.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Interfaces/CombatAttacker.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/Interfaces/CombatDamageable.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Combat/UI/CombatLifeBar.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Platforming/Animation/AnimNotify_EndDash.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Platforming/PlatformingCharacter.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Platforming/PlatformingGameMode.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_Platforming/PlatformingPlayerController.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/AI/SideScrollingAIController.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/AI/SideScrollingNPC.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/AI/SideScrollingStateTreeUtility.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/Gameplay/SideScrollingPickup.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/Interfaces/SideScrollingInteractable.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/SideScrollingCameraManager.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/SideScrollingCharacter.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/SideScrollingGameMode.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/SideScrollingPlayerController.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/Variant_SideScrolling/UI/SideScrollingUI.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/obstacleAssault.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/obstacleAssaultCharacter.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/obstacleAssaultGameMode.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	},
+	{
+		"file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Source/obstacleAssault/obstacleAssaultPlayerController.cpp",
+		"arguments": [
+			"/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/.vscode/compileCommands_Default/obstacleAssault.0.rsp"
+		],
+		"directory": "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source"
+	}
+]

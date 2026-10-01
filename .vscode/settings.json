@@ -1,0 +1,13 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--compile-commands-dir=/home/furkan/Linux_Unreal_Engine_5.8.2",
+        "--background-index"
+    ],
+    "files.watcherExclude": {
+        "**/Intermediate/**": true,
+        "**/Binaries/**": true,
+        "**/Saved/**": true,
+        "**/DerivedDataCache/**": true
+    }
+}
