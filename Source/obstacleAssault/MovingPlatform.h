@@ -18,13 +18,20 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere)
 	FString MyString{"Hello World"};
 
 	UPROPERTY(VisibleAnywhere)
 	int MyInt{17};
+
+	UPROPERTY(EditAnywhere)
+	FVector MyVector{FVector(1937.00,-1712.556181,930.338928)};
+
+	UPROPERTY(VisibleAnywhere)
+	bool border{};
+
+public:	
+	// Called every frame
+
 };
