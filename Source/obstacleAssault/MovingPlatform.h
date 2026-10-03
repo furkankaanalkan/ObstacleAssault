@@ -19,6 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
+	/*
 	UPROPERTY(EditAnywhere)
 	FString MyString{"Hello World"};
 
@@ -27,9 +28,27 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	FVector MyVector{FVector(1937.00,-1712.556181,930.338928)};
+	*/
 
+	/*beginPlay*/
+
+	//myXYZplatform
+	FVector StartLocation;
+	
+	/*Tick*/
+
+	/*
 	UPROPERTY(VisibleAnywhere)
-	bool border{};
+	float speed{500.0f};
+	*/
+
+
+	//myXYZplatform
+	UPROPERTY(EditAnywhere)
+    float MoveDistance{4480.0f};
+
+	UPROPERTY(EditAnywhere)
+	FVector myChangebleVector{FVector(0.0f,0.0f,0.0f)};
 
 public:	
 	// Called every frame

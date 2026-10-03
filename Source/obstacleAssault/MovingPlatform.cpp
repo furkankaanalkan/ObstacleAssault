@@ -15,7 +15,7 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-
+	/*
 	int myInt{5 * 2};
 
 	UE_LOG(LogTemp, Warning, TEXT("My Integer is : %d"), myInt);
@@ -31,12 +31,17 @@ void AMovingPlatform::BeginPlay()
 
 	//set the actor location to the vector
 	SetActorLocation(MyVector);
-
+	*/
+	StartLocation = GetActorLocation();
 }	
 // Called every frame
 void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	/*
+	bool border{};
+	FVector MyVector{GetActorLocation()};
 	
 	//loop platform movement
 	if(MyVector.X >= 1937.0f){
@@ -48,13 +53,29 @@ void AMovingPlatform::Tick(float DeltaTime)
 	}
 
 	if(border){
-		MyVector.X += 1;
+		MyVector.X += speed * DeltaTime;
 	}
 	else{
-		MyVector.X -= 1;
+		MyVector.X -= speed * DeltaTime;
 	}
-	
 	SetActorLocation(MyVector);
+	*/
+	
+	FVector myXYZplatform{GetActorLocation()};
+	FVector CurrentLocation = GetActorLocation();
+
+	CurrentLocation += myChangebleVector * DeltaTime;
+    SetActorLocation(CurrentLocation);
+
+	float DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
+
+	if (DistanceMoved >= MoveDistance){
+
+        myChangebleVector = -myChangebleVector;
+        
+        StartLocation = CurrentLocation;
+    }
+
 
 }
 
