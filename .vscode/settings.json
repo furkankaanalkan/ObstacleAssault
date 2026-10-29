@@ -9,5 +9,11 @@
         "**/Binaries/**": true,
         "**/Saved/**": true,
         "**/DerivedDataCache/**": true
-    }
+    },
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.formatting": "disabled",
+    "C_Cpp.errorSquiggles": "disabled",
+    "unreal-clangd.creation.overwrite": "full",
+    "unreal-clangd.utility.createProjectOnStartup": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false
 }

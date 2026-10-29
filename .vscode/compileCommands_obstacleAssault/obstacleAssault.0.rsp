@@ -1,5 +1,4 @@
 -include "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Intermediate/Build/Linux/x64/UnrealEditor/Development/obstacleAssault/Definitions.obstacleAssault.h" 
--include "/media/furkan/1TBssd/DESKTOP/Software/Cpp/unreal_Engine/obstacleAssault/Intermediate/Build/Linux/x64/obstacleAssaultEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h" 
 -I "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source" 
 -I "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT" 
 -I "/home/furkan/Linux_Unreal_Engine_5.8.2/Engine/Source/Runtime/Engine/Classes" 
